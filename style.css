@@ -1,1 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background: #0b0b0b;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 7%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.hero {
+    min-height: 80vh;
+    padding: 150px 7%;
+}
+
+.hero h1 {
+    font-size: 70px;
+    margin: 20px 0;
+}
+
+.hero span {
+    color: #a78bfa;
+}
+
+.hero p {
+    max-width: 600px;
+    line-height: 1.7;
+}
+
+button {
+    margin-top: 30px;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+section {
+    padding: 100px 7%;
+}
+
+section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
